@@ -27,7 +27,7 @@ jobs:
       - run: yarn install
       - run: yarn generate
       - run: apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing aws-cli
-      - run: aws s3 cp ./dist s3://socode.jp
+      - run: aws s3 cp ./dist s3://socode.jp --recursive
 workflows:
   version: 2
   build-deploy:
