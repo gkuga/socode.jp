@@ -19,12 +19,9 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       - run: yarn test
-  deploy:
-    docker:
-      - image: node:10.6.0-alpine
-    steps:
-      - checkout
       - run: yarn generate
+  deploy:
+    steps:
       - run: aws s3 cp ./dist s3://socode.jp
 workflows:
   version: 2
