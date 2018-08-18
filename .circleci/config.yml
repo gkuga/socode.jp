@@ -24,8 +24,7 @@ jobs:
     docker:
       - image: node:10.6.0-alpine
     steps:
-      - run: apk update
-      - run: apk add aws-cli
+      - run: apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing aws-cli
       - run: aws s3 cp ./dist s3://socode.jp
 workflows:
   version: 2
