@@ -21,6 +21,8 @@ jobs:
       - run: yarn test
       - run: yarn generate
   deploy:
+    docker:
+      - image: node:10.6.0-alpine
     steps:
       - run: aws s3 cp ./dist s3://socode.jp
 workflows:
