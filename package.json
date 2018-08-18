@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "HOST=0.0.0.0 nuxt",
     "generate": "nuxt generate",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": "git+https://github.com/gkuga/socode.jp.git",
   "author": "gkuga",
