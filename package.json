@@ -1,0 +1,21 @@
+{
+  "name": "socode.jp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "HOST=0.0.0.0 nuxt",
+    "generate": "nuxt generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/gkuga/socode.jp.git",
+  "author": "gkuga",
+  "bugs": {
+    "url": "https://github.com/gkuga/socode.jp/issues"
+  },
+  "homepage": "https://github.com/gkuga/socode.jp#readme",
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^1.4.2"
+  }
+}

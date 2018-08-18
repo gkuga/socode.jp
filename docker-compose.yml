@@ -1,0 +1,10 @@
+version: "3"
+services:
+  socode_jp:
+    build:
+      context: ./
+    volumes:
+      - ./:/app
+    command: yarn run dev
+    ports:
+      - "3000:3000"
