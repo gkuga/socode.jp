@@ -1,3 +1,7 @@
 <template>
-  <h1>Hello world!</h1>
+  <div>
+  <h1>爽コード</h1>
+    <hr>
+      ようこそ爽コードへ
+  </div>
 </template>
