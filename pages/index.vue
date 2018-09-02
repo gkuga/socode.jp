@@ -8,6 +8,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted () {
+    this.$axios.$get('https://2t7ldc58u9.execute-api.ap-northeast-1.amazonaws.com/test').then(response => (console.log(response)));
+  }
+}
+</script>
+
 <style>
 .marquee {
   background:aliceblue;

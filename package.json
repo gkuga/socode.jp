@@ -16,6 +16,7 @@
   "homepage": "https://github.com/gkuga/socode.jp#readme",
   "license": "MIT",
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
     "nuxt": "^1.4.2"
   }
 }
