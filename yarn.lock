@@ -11,6 +11,10 @@
     axios-retry "^3.0.2"
     consola "^1.1.4"
 
+"@nuxtjs/google-gtag@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-gtag/-/google-gtag-1.0.4.tgz#57562d8ec4c7694573e77edf72097da4a34b0d68"
+
 "@nuxtjs/proxy@^1.2.4":
   version "1.2.4"
   resolved "http://registry.npmjs.org/@nuxtjs/proxy/-/proxy-1.2.4.tgz#41aafac58854f14e28aed17238936bb6404e6071"

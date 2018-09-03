@@ -7,6 +7,19 @@ module.exports = {
     ]
   },
   modules: [
-    '@nuxtjs/axios'
-  ]
+    '@nuxtjs/axios',
+    '@nuxtjs/google-gtag'
+  ],
+  google-gtag: {
+    id: 'UA-125132855-1'
+    config:{
+      anonymize_ip: true,
+      send_page_view: false,
+      linker:{
+        domains:['domain.com','domain.org']
+      }
+    },
+    debug: true,
+    disableAutoPageTrack: false,
+  }
 }
