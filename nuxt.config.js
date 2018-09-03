@@ -11,7 +11,7 @@ module.exports = {
     '@nuxtjs/google-gtag'
   ],
   'google-gtag': {
-    id: 'UA-125132855-1'
+    id: 'UA-125132855-1',
     config:{
       anonymize_ip: true,
       send_page_view: false,
