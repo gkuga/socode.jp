@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <span>
     <CounterNumber
       v-for="number in counter"
       v-bind:key="number.id"
       v-bind:number="number.value"
     />
-  </div>
+  </span>
 </template>
 
 <script>
