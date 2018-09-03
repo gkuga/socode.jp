@@ -8,6 +8,7 @@
     <hr>
     あなたは
     <Counter
+      class="counter"
       v-bind:access_count="access_count"
       v-bind:counter_length="counter_length"
     />
@@ -25,7 +26,7 @@ export default {
   data: function () {
     return {
       access_count: 0,
-      counter_length: 10
+      counter_length: 6
     }
   },
   mounted () {
@@ -35,6 +36,10 @@ export default {
 </script>
 
 <style>
+.counter {
+  font-family: 'Russo One', sans-serif;
+}
+
 .marquee {
   background:aliceblue;
   overflow:hidden;
