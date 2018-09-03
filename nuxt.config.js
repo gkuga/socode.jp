@@ -10,7 +10,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/google-gtag'
   ],
-  google-gtag: {
+  'google-gtag': {
     id: 'UA-125132855-1'
     config:{
       anonymize_ip: true,
