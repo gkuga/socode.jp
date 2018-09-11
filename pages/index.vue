@@ -4,7 +4,7 @@
       <h1>爽コード</h1>
       <hr>
       <div class="marquee">
-        <p>ようこそ爽コードへ</p>
+        <p>ようこそ爽コードへ&nbsp;&nbsp;～{{getWord()}}～</p>
       </div>
       <hr>
       あなたは
@@ -38,7 +38,16 @@ export default {
   data: function () {
     return {
       access_count: 0,
-      counter_length: 6
+      counter_length: 6,
+      words: [
+        "今年の抱負「毎日何かしらのアウトプット」",
+        "今年の抱負「滑舌よくする」",
+      ]
+    }
+  },
+  methods: {
+    getWord: function () {
+      return this.words[Math.floor(Math.random() * this.words.length)];
     }
   },
   beforeCreate () {
@@ -68,7 +77,7 @@ export default {
   display:inline-block;
   white-space:nowrap;
   animation-name:marquee;
-  animation-duration:10s;
+  animation-duration:15s;
     animation-timing-function:linear;
     animation-iteration-count:infinite;
 }
