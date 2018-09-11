@@ -19,6 +19,10 @@
       <ul>
         <li><a href="https://gkuga.hatenablog.com/">週刊便代</a></li>
         <li><a href="https://twitter.com/gkuga">トゥイッター</a></li>
+        <li><a href="https://twitter.com/gkuga">github1</a></li>
+        <li><a href="https://twitter.com/gkuga">github2</a></li>
+        <li><a href="https://twitter.com/gkuga">qiita1</a></li>
+        <li><a href="https://twitter.com/gkuga">qiita2</a></li>
       </ul>
     </nav>
   </div>
