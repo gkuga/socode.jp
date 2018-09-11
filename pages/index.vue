@@ -25,12 +25,14 @@ export default {
   },
   data: function () {
     return {
-      access_count: 0,
       counter_length: 6
     }
   },
-  beforeCreate () {
-    this.$axios.$get('https://2t7ldc58u9.execute-api.ap-northeast-1.amazonaws.com/prod').then(response => {this.access_count=response.access_count});
+  asyncData ({app, params}, callback) {
+    app.$axios.get('https://2t7ldc58u9.execute-api.ap-northeast-1.amazonaws.com/prod')
+    .then((res) => {
+      callback(null, {access_count: res.data.access_count})
+    });
   }
 }
 </script>
