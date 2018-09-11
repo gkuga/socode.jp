@@ -1,18 +1,26 @@
 <template>
   <div>
-    <h1>爽コード</h1>
-    <hr>
-    <div class="marquee">
-      <p>ようこそ爽コードへ</p>
-    </div>
-    <hr>
-    あなたは
-    <Counter
-      class="counter"
-      v-bind:access_count="access_count"
-      v-bind:counter_length="counter_length"
-    />
-    人目のお客様です。
+    <section>
+      <h1>爽コード</h1>
+      <hr>
+      <div class="marquee">
+        <p>ようこそ爽コードへ</p>
+      </div>
+      <hr>
+      あなたは
+      <Counter
+        class="counter"
+        v-bind:access_count="access_count"
+        v-bind:counter_length="counter_length"
+      />
+      人目のお客様です。
+    </section>
+    <nav>
+      <ul>
+        <li><a href="https://gkuga.hatenablog.com/">週刊便代</a></li>
+        <li><a href="https://twitter.com/gkuga">トゥイッター</a></li>
+      </ul>
+    </nav>
   </div>
 </template>
 
