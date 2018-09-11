@@ -19,10 +19,10 @@
       <ul>
         <li><a href="https://gkuga.hatenablog.com/">週刊便代</a></li>
         <li><a href="https://twitter.com/gkuga">トゥイッター</a></li>
-        <li><a href="https://twitter.com/gkuga">github1</a></li>
-        <li><a href="https://twitter.com/gkuga">github2</a></li>
-        <li><a href="https://twitter.com/gkuga">qiita1</a></li>
-        <li><a href="https://twitter.com/gkuga">qiita2</a></li>
+        <li class="comming-soon">github1</li>
+        <li class="comming-soon">github2</li>
+        <li class="comming-soon">qiita1</li>
+        <li class="comming-soon">qiita2</li>
       </ul>
     </nav>
   </div>
@@ -50,6 +50,10 @@ export default {
 <style>
 .counter {
   font-family: 'Russo One', sans-serif;
+}
+
+.comming-soon {
+  text-decoration: line-through;
 }
 
 .marquee {
